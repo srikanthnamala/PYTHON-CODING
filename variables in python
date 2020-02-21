@@ -1,0 +1,20 @@
+List has a group of values. Tuple is same as list but it is immutable where as list is mutable.
+Set also has a group of values but it does not follows an order.
+Set follows the concept of hash.
+In python if we create multiple variables with same data they will point to the same reference box which shows the same address.
+To know the address the variable type use:
+            id('variable')
+            If a = 10
+            b = a
+            If k = 10
+            id(k)  Here id of k is same as id of a.
+            If a = 9
+            id(a)  Here the address is different.
+            id(b) Same address as previous because it's pointing to 10.
+            If k = a
+            id(k) Same as address of a.
+            If b = 8
+When we have data which is not tagged, it is garbage collected.
+Variables are also called as "tags" because we tag a,b,k etc... to 10,9,8.
+Constants are denoted by capital letters.
+In python there  are no constants.
