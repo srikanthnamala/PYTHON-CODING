@@ -18,3 +18,12 @@ When we have data which is not tagged, it is garbage collected.
 Variables are also called as "tags" because we tag a,b,k etc... to 10,9,8.
 Constants are denoted by capital letters.
 In python there  are no constants.
+x = 2
+x +3
+5
+y = 3
+x+y
+5
+_ +3 (Underscore is used to make use of previous operators.)
+myname = "srikanth"
+len(myname)  To know the length of the string.
