@@ -1,0 +1,82 @@
+				OPERATORS IN PYTHON
+There are five types of operatots in python.
+They are:
+1. Arithmetic
+2. Assignment
+3. Relational
+4. Logical
+5. Unary
+
+Arithmetic: +,-,*,/
+
+Assignment:
+x = x+2
+  x
+  4
+x+ = 2
+  x
+  6
+x* = 3
+  x
+  18
+
+a,b = 5,6
+  a
+  5
+  b
+  6
+
+Unary:
+
+n = 7
+  n
+  7
+  -n
+  -7
+n = -n
+  -7
+
+
+Relational:
+a = 5
+b = 6
+a<b
+ True
+a>b
+ False
+a == b Double equals is used to compare the data.
+
+a = 6
+a == b
+  True
+a<=b
+a>=b
+
+a!=b
+ False
+a = 7
+ a! = b
+ True
+
+Logical: There are three types of logical operators. They are 
+1. AND
+2. OR
+3. NOR
+
+a = 5
+b = 4
+a<8 and b<5
+  True
+a<8 and b<2
+  False
+a<8 or b<2
+ True
+x = True
+  x
+  True
+  not x
+  False
+x = not x
+  x
+  False
+
