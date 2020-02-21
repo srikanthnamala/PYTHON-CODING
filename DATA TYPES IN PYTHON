@@ -1,0 +1,85 @@
+				DATA TYPES
+1. None
+2. Numeric
+3. List[]
+4. Tuple()
+5. Set{}
+6. String""
+7. Range
+8. Dictionary/Mapping
+
+None: If a variable is not assigned with any value it is none type.
+Numeric: It has four types. They are:
+1. Int
+2. float
+3. complex
+4. bool
+
+Complex: "J" is used along with variable to be a complex number.
+Ex: 6+9j
+
+FLOAT TO INT
+
+a = 5.6
+b = int(a)
+type(b)
+
+INT TO FLOAT
+
+k = float(b)
+
+NORMAL TO COMPLEX
+
+k = 6
+c = complex(b,k)
+
+BOOLEAN: True or False.
+int(True) = 1
+int(False) = 0
+
+bool = b<k
+
+LIST:
+lst = [2,3,4,5,6,7]
+type[lst]
+
+SET:
+S = {1,2,3,4,5}
+type{S}
+
+TUPLE:
+t = (1,2,3,4,5)
+type(t)
+
+STRING:
+str = "srikanth"
+Double or single qoutes are used for a string.
+In python we do not have character as a data type. We can use character as a path of string.
+
+RANGE:
+range(15)
+range(0,15)
+
+RANGE TO LIST:
+list(range(15))
+
+PICKING ODD NUMBERS:
+list(range(3,15,3))
+
+MAPPING/DICTIONARY:
+
+Dictionary is used to fetch data easily by assigning keys. Keys should be unique. 
+{} braces are used to not to repeat the keys.
+
+
+d = {'srikanth':'MI', 'varma': 'Xiaomi', 'cherry' : 'Redmi'}
+
+To know keys:
+d.keys()
+
+d.values()
+
+d['srikanth'] o/p: 'mi'
+d.get('varma')o/p: 'redmi'
+
+
