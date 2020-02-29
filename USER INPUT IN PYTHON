@@ -1,0 +1,34 @@
+USER INPUT IN PYTHON
+
+x = input("Enter the first number")
+y = input("Enter the second number")
+z = x+y
+print(z)
+
+Here the result will depends on the given values as user input. But it is impossible to add the given values because the input function converts the values in to string format. So data type is used to convert string to respective datatype format i.e, int,float.
+
+x = int(input("Enter the first number"))
+y = int(input("Enter the second number"))
+z = x+y
+print(z)
+
+INPUT IN A CHAR FORMAT
+
+ch = input("Enter a char")
+print(ch)
+Index numbers are used to fetch the data.
+ch = input("Enter a char")[0]
+print(ch)
+
+INPUT AN EXPRESSION
+
+result = eval(input("Enter an expression"))
+print(result)
+
+
+
+
+
+
+
+
