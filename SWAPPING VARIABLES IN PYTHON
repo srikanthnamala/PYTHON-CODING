@@ -1,0 +1,32 @@
+SWAPPING VARIABLES IN PYTHON
+
+a = 5
+b = 6
+
+METHOD 1:
+temp = a
+a = b
+b = temp
+
+Here we are using a temp variable to store the data temporarily. So not to waste the variable
+and swapping using only two variables we use below two methods.
+
+FORMULA:
+
+a = a+b
+b = a-b
+a = a-b
+
+METHOD 2:
+a = a+b
+b = a-b
+a = a-b
+
+a = a^b
+b = a^b
+a = a^b
+
+METHOD 3:
+a,b = b,a
+
+Here the right side will be solved first. In this method ROT_TWO concept of rotation is used.
